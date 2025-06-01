@@ -81,7 +81,8 @@ export default {
         type: this.selectedType,
         value: this.input
       })
-      this.input = ''
+      this.input = '',
+      this.selectedType = 'title'
     },
 
     async loadComments() {
